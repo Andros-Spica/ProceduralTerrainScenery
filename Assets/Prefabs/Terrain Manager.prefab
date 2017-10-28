@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1057471205201432}
+  m_IsPrefabParent: 1
+--- !u!1 &1057471205201432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4771073218908378}
+  - component: {fileID: 114753041418336620}
+  m_Layer: 0
+  m_Name: Terrain Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1654637690002286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4713651228735794}
+  - component: {fileID: 114867938843841800}
+  m_Layer: 0
+  m_Name: ScenaryProceduralEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1691363092843760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4740426954581670}
+  - component: {fileID: 218892701856551064}
+  - component: {fileID: 154163682072752398}
+  - component: {fileID: 114210080503785008}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1709239089410522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4182145027777102}
+  - component: {fileID: 114903162052941346}
+  - component: {fileID: 114075004626723204}
+  m_Layer: 0
+  m_Name: TerrainProceduralEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4182145027777102
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709239089410522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771073218908378}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4713651228735794
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654637690002286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5277.5, y: 174, z: 6153}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771073218908378}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4740426954581670
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691363092843760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4771073218908378}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4771073218908378
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1057471205201432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4182145027777102}
+  - {fileID: 4713651228735794}
+  - {fileID: 4740426954581670}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114075004626723204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709239089410522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce1c3fc44a6fb04e9691f8aa43cee75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alphaNoiseSeed: 0
+  alphaFrq: 8
+  alphaNoiseScale: 0.001
+  lowlandThreshold: 0.15
+  midStrataLowerThreshold: 0.2
+  midStrataMiddleThreshold: 0.2
+  midStrataUpperThreshold: 0.23
+  highlandThreshold: 0.25
+  steepTerrainThreshold: 0.3
+  plainTextureWeight: 1
+  steepTextureWeight: 2
+  highlandTextureWeight: 1.5
+  midStrataTextureWeight: 0.5
+  lowlandTextureWeight: 1
+  m_splatTileSize:
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  - 10
+  terrainTextures:
+  - {fileID: 2800000, guid: c6e0767b1f8c34890ac245217f4b9731, type: 3}
+  - {fileID: 2800000, guid: 18214e9d6af6248559d501391856f1c7, type: 3}
+  - {fileID: 2800000, guid: 440eb36db91ca410f800ff3cfe43572f, type: 3}
+  - {fileID: 2800000, guid: bfd675cc0db1d4656b75dc6d6ba91142, type: 3}
+  - {fileID: 2800000, guid: ef5c51cfa2ce46043a41a376b560c525, type: 3}
+  - {fileID: 2800000, guid: ef5c51cfa2ce46043a41a376b560c525, type: 3}
+  terrainNormals:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
+  - {fileID: 2800000, guid: 58a059b07b093a745b47c2191525ddce, type: 3}
+  terrainManager: {fileID: 114753041418336620}
+--- !u!114 &114210080503785008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691363092843760}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21469beb9d9b3184ca3892bb780c30d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114753041418336620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1057471205201432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976ad2e645b7343daae59b1cacce77ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainSize: {x: 12000, y: 1000, z: 12000}
+  centralPatch:
+    x: 16
+    y: 80
+  centralPosition: {x: 0, y: 0, z: 0}
+  heightmapResolution: 2
+  loadedHeightmapResolution: 2
+  worldPatchesX: 100
+  worldPatchesY: 100
+  posXRange:
+    min: 2450
+    max: 10000
+  posZRange:
+    min: 0
+    max: 12000
+  loadedTerrainSize: {x: 0, y: 0, z: 0}
+  sectorLoaded:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  FPController: {fileID: 0}
+--- !u!114 &114867938843841800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654637690002286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f30591bd82baf64c952c38e0d195250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treeNoiseSeed: 0
+  treeNoiseFrequency: 12
+  treeNoiseScale: 0.001
+  treeDensity: 20
+  treeDensityStdev: 5
+  treeScale:
+    min: 0.01
+    max: 0.5
+  cactusNoiseSeed: 0
+  cactusNoiseFrequency: 12
+  cactusNoiseScale: 0.001
+  cactusDensity: 100
+  cactusDensityStdev: 10
+  cactusScale:
+    min: 0.5
+    max: 1
+  m_treeDistance: 2000
+  m_treeBillboardDistance: 400
+  m_treeCrossFadeLength: 20
+  m_treeMaximumFullLODCount: 400
+  stoneSeed: 392
+  stonePlainDensity:
+    min: 20
+    max: 50
+  stonePlainScale:
+    min: 0.5
+    max: 5
+  stonePlainOffset: {x: 0, y: -0.6, z: 0}
+  stonePlainSlope:
+    min: 0.3
+    max: 0.8
+  stoneCliffDensity:
+    min: 100
+    max: 200
+  stoneCliffScale:
+    min: 0.5
+    max: 20
+  stoneCliffOffset: {x: 0, y: -1, z: 0}
+  stoneCliffSlope:
+    min: 0.5
+    max: 1
+  treePrefabs:
+  - {fileID: 1074195795701308, guid: a1c65a32608bd6d4c936427f5c75fb3e, type: 2}
+  cactusPrefabs: []
+  stonePlainPrefabs:
+  - {fileID: 1628923106588150, guid: 9f30252ea34065d4fa1127b03453a812, type: 2}
+  stoneCliffPrefabs:
+  - {fileID: 1293364838581364, guid: 4cd48fe89c9a6ca4ab96d3387b57ad78, type: 2}
+  terrainManager: {fileID: 114753041418336620}
+  loadSceneryAndLore: {fileID: 0}
+--- !u!114 &114903162052941346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709239089410522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5351cbbe010b24f951947b3b495b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streamSEED: 99
+  streamSourcesPerPatch:
+    min: 1
+    max: 5
+  streamDepth: 0.001
+  streamLength: 200
+  displayStreams: 0
+  groundNoiseSeed: 0
+  groundFrq: 12
+  groundNoiseScale: 0.001
+  smoothIntensity: 0.2
+  heightMapSize: 0
+  terrainManager: {fileID: 114753041418336620}
+  alphamapProceduralEditor: {fileID: 114075004626723204}
+--- !u!154 &154163682072752398
+TerrainCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691363092843760}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: ac65ac88f6d105f4a9fbcf275d787494, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &218892701856551064
+Terrain:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1691363092843760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_TerrainData: {fileID: 15600000, guid: ac65ac88f6d105f4a9fbcf275d787494, type: 2}
+  m_TreeDistance: 2000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_CastShadows: 1
+  m_DrawHeightmap: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialType: 0
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 0}
+  m_BakeLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0512
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
