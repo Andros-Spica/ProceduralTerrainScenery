@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/108636900.svg)](https://zenodo.org/badge/latestdoi/108636900)
+
 # ProceduralTerrainScenery
 
 A minimal example of the terrain and scenery loading system created for the 'Artificial Anasazi - From NetLogo to Unity' project in collaboration with Shawn Graham (Carleton University). Our aim in this project is to build a video game that allows a broader public to better understand research using ABM in Archaeology. We translated the agent-based model "Artificial Anasazi" from its versions in [NetLogo](https://ccl.northwestern.edu/netlogo/) to C# in [Unity](https://unity3d.com/).
